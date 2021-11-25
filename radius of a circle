@@ -1,0 +1,5 @@
+r=float(input('Type in the Radius: '))
+
+PI=3.1419
+r1= PI*(r*r);
+print("The area of the circle for Raduis ", r, 'is :',r1)

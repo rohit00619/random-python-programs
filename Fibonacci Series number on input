@@ -1,0 +1,18 @@
+nterms=int(input('Type the number of terms that you wants to fins out the Fibonacci number for: '))
+
+n1=0
+n2=1
+count=0
+
+if nterms<=0:
+    print('Fibonacci cannot be generated for Negative Values DUMBO : ')
+elif nterms==1:
+    print('Fibonacci Sequence for 1 terms is: 1')
+else:
+    print('FIbonacci Sequence for',nterms, 'is: ')
+    while count<nterms:
+        print(n1)
+        nth=n1+n2
+        n1=n2
+        n2=nth
+        count= count+1
