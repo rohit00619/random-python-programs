@@ -1,0 +1,10 @@
+txt = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+
+#your code goes here
+
+txt1=txt.split()
+txt2=txt1[0]
+for word in txt1:
+    if len(word)>len(txt2):
+        txt2=word
+print(txt2)
