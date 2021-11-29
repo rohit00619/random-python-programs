@@ -1,0 +1,10 @@
+import random
+
+while True:
+    print("Press 1 for roll again and 2 for Exit ")
+    inp=int(input("What do you want to do now ? "))
+    if inp==1:
+        print(random.randint(1,6))
+    elif inp==2:
+        break
+    else:print("Wrong Input !!!")
