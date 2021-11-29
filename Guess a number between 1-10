@@ -1,0 +1,12 @@
+import random
+
+while True:
+    print("Guess a Number Please between 1-10 and 0 to exit :")
+    inp=int(input("Type your Number: ", ))
+    ran=random.randint(1,10)
+    if inp==ran:
+        print("Wooh YaaaaaaaaaY You Guessed it correct the Number was {}".format(ran))
+    elif inp==0:
+        break
+    else:
+        print("Sorry Wrong Number the Number was {} Guess again".format(ran))
